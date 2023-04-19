@@ -36,10 +36,10 @@ public class Main {
 
     public static void task3() {
         System.out.println("Задача 3");
-        double dog = 8;
+        float dog = 8;
         var cat = 3.6;
         var paper = 763789;
-        dog = dog - 3.5;
+        dog = dog - 3.5f;
         cat = cat - 1.6;
         paper = paper - 7639;
         System.out.println(dog);
@@ -75,18 +75,18 @@ public class Main {
         var secondBoxerWeight = 82.7;
         var allBoxersWeight = firstBoxerWeight + secondBoxerWeight;
         System.out.println("Общий вес двух бойцов " + allBoxersWeight + " кг");
-        var diffrentWeight = firstBoxerWeight - secondBoxerWeight;
-        System.out.println("Разница веса между двумя бойцами " + diffrentWeight + " кг");
+        var differentWeight = firstBoxerWeight - secondBoxerWeight;
+        System.out.println("Разница веса между двумя бойцами " + differentWeight + " кг");
     }
 
     public static void task7() {
         System.out.println("Задача 7");
         var firstBoxerWeight = 78.2;
         var secondBoxerWeight = 82.7;
-        var diffrentWeight = secondBoxerWeight - firstBoxerWeight;
-        System.out.println("Разница веса между двумя бойцами " + diffrentWeight + " кг");
-        var diffrentWeightMetod2 = secondBoxerWeight % firstBoxerWeight;
-        System.out.println("Разница веса между двумя бойцами " + diffrentWeightMetod2 + " кг");
+        var differentWeight = secondBoxerWeight - firstBoxerWeight;
+        System.out.println("Разница веса между двумя бойцами " + differentWeight + " кг");
+        var differentWeightMetod2 = secondBoxerWeight % firstBoxerWeight;
+        System.out.println("Разница веса между двумя бойцами " + differentWeightMetod2 + " кг");
     }
 
     public static void task8() {
