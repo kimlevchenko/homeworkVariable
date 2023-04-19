@@ -97,6 +97,6 @@ public class Main {
         System.out.println("Всего работников в компании — " + totalWorks + " человек");
         totalWorks = totalWorks + 94;
         var fullHours = totalWorks * 8;
-        System.out.println("Если в компании работает " + totalWorks + " человека, то всего " + fullHours + " часа работы может быть поделено между сотрудниками");
+        System.out.println("Если в компании работает " + totalWorks + " человека, то всего " + fullHours + " часа работы может быть поделено между сотрудниками.");
     }
 }
